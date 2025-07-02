@@ -1,0 +1,43 @@
+/* General page styling */
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Center main heading */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Table layout */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+/* Table headers and cells */
+th, td {
+  border: 2px solid white;
+  padding: 6px 10px;
+  text-align: left;
+}
+
+/* Header row background */
+thead {
+  background-color: green;
+}
+
+/* Zebra striping for even rows */
+tr:nth-child(even) {
+  background-color: gray;
+}
+
+/* Hover effect for all rows */
+tr:hover {
+  background-color: #444;
+}
